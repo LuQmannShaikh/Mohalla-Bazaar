@@ -1,0 +1,20 @@
+{
+  "_help": "Ye sirf testing ke liye nakli (demo) bhav hain. 'item' ka naam items.json ki id se milna chahiye. today = aaj ka aam bhav, yesterday = kal ka bhav (badha/ghata dikhane ke liye), cheapest = sabse sasti dukaan, group = group order ka bhav. Sab bhav prati unit (kg / litre / cylinder) hain.",
+  "area": "Demo Mohalla",
+  "updated_minutes_ago": 45,
+  "rates": [
+    { "item": "atta",      "today": 46,  "yesterday": 44,  "cheapest": 44,  "group": 41 },
+    { "item": "rice",      "today": 54,  "yesterday": 54,  "cheapest": 51,  "group": 48 },
+    { "item": "toor_dal",  "today": 168, "yesterday": 165, "cheapest": 162, "group": 152 },
+    { "item": "moong_dal", "today": 124, "yesterday": 126, "cheapest": 120, "group": 112 },
+    { "item": "sugar",     "today": 47,  "yesterday": 47,  "cheapest": 45,  "group": 42 },
+    { "item": "oil",       "today": 178, "yesterday": 172, "cheapest": 170, "group": 160 },
+    { "item": "salt",      "today": 26,  "yesterday": 26,  "cheapest": 24,  "group": 22 },
+    { "item": "tea",       "today": 460, "yesterday": 460, "cheapest": 440, "group": 415 },
+    { "item": "onion",     "today": 42,  "yesterday": 36,  "cheapest": 39,  "group": 36 },
+    { "item": "potato",    "today": 29,  "yesterday": 31,  "cheapest": 27,  "group": 25 },
+    { "item": "tomato",    "today": 58,  "yesterday": 64,  "cheapest": 54,  "group": 50 },
+    { "item": "milk",      "today": 60,  "yesterday": 58,  "cheapest": 58,  "group": 56 },
+    { "item": "lpg",       "today": 880, "yesterday": 880, "cheapest": 870, "group": 870 }
+  ]
+}
