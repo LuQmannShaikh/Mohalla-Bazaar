@@ -1,0 +1,103 @@
+/* ==========================================================
+   theme.css
+   App ka poora look yahin se control hota hai: rang, font,
+   size, spacing. Look badalna ho to SIRF is file ko badlo.
+   Baaki CSS sirf var(--naam) use karti hai.
+   ========================================================== */
+
+:root {
+  /* ---------- Rang (light mode) ---------- */
+  --color-bar: #1f6f4a;          /* upar ki patti */
+  --color-on-bar: #ffffff;
+  --color-primary: #1f6f4a;      /* mukhya hara rang */
+  --color-primary-strong: #14513a;
+  --color-on-primary: #ffffff;
+  --color-accent: #f2b52b;       /* haldi peela: active tab, speaker button */
+  --color-on-accent: #3a2a00;
+  --color-bg: #f4f7f2;
+  --color-surface: #ffffff;      /* card ka rang */
+  --color-text: #1b2a22;
+  --color-muted: #55665c;
+  --color-border: #d6dfd7;
+  --color-up: #c0392b;           /* rate badha */
+  --color-down: #1c8a4a;         /* rate ghata */
+  --color-focus: #1a5fd0;
+
+  /* ---------- Font ---------- */
+  /* System fonts: Hindi, Marathi aadi sab chalte hain aur data nahi lagta */
+  --font-body: "Noto Sans Devanagari", "Noto Sans", system-ui, -apple-system,
+               "Segoe UI", Roboto, sans-serif;
+  --text-s: 0.875rem;
+  --text-m: 1rem;
+  --text-l: 1.25rem;
+  --text-xl: 1.625rem;
+  --text-xxl: 2.5rem;
+  --weight-normal: 400;
+  --weight-bold: 700;
+  --line: 1.5;
+
+  /* ---------- Spacing ---------- */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+
+  /* ---------- Shape ---------- */
+  --radius-s: 0.5rem;
+  --radius-m: 1rem;
+  --radius-pill: 999px;
+
+  /* ---------- Size ---------- */
+  --tap: 3.25rem;                /* kam se kam chhoone ki jagah */
+  --topbar-h: 3.5rem;
+  --tabbar-h: 4.75rem;
+  --maxw: 40rem;                 /* badi screen par content ki chaudai */
+  --shadow-bar: 0 -2px 12px rgb(20 40 30 / 0.08);
+}
+
+/* ---------- Text size: user settings se badalta hai ----------
+   JS ye likhega: <html data-text-size="large">                */
+html { font-size: 112.5%; }                      /* normal = 18px */
+html[data-text-size="large"] { font-size: 125%; }
+html[data-text-size="xlarge"] { font-size: 140%; }
+
+/* ---------- Dark mode ----------
+   Phone ki setting se apne aap, ya user ke chunav se
+   <html data-theme="dark"> / <html data-theme="light">          */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-bar: #17261d;
+    --color-on-bar: #e8f0ea;
+    --color-primary: #3fb57a;
+    --color-primary-strong: #2f9462;
+    --color-on-primary: #0b1f15;
+    --color-bg: #0f1a14;
+    --color-surface: #17261d;
+    --color-text: #e8f0ea;
+    --color-muted: #9db0a3;
+    --color-border: #2a3d31;
+    --color-up: #ff7a66;
+    --color-down: #4cd08a;
+    --color-focus: #7aa7ff;
+    --shadow-bar: 0 -2px 12px rgb(0 0 0 / 0.4);
+  }
+}
+
+:root[data-theme="dark"] {
+  --color-bar: #17261d;
+  --color-on-bar: #e8f0ea;
+  --color-primary: #3fb57a;
+  --color-primary-strong: #2f9462;
+  --color-on-primary: #0b1f15;
+  --color-bg: #0f1a14;
+  --color-surface: #17261d;
+  --color-text: #e8f0ea;
+  --color-muted: #9db0a3;
+  --color-border: #2a3d31;
+  --color-up: #ff7a66;
+  --color-down: #4cd08a;
+  --color-focus: #7aa7ff;
+  --shadow-bar: 0 -2px 12px rgb(0 0 0 / 0.4);
+}
