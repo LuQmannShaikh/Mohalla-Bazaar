@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Mohalla Bazaar</title>
+  <meta name="description" content="Apne mohalle ke rate dekho aur padosiyon ke saath milkar sasta saman kharido.">
+
+  <!-- Phone par app jaisa look -->
+  <meta name="theme-color" content="#1f6f4a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="assets/icons/icon-192.png">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+
+  <!-- Look: rang aur size theme.css mein, baaki app.css mein -->
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+  <!-- Upar ki patti: app ka naam aur bhasha badalne ka button -->
+  <header class="topbar">
+    <h1 class="topbar__title" data-i18n="app.name">Mohalla Bazaar</h1>
+    <button id="lang-btn" class="topbar__lang" type="button" aria-label="Language"></button>
+  </header>
+
+  <!-- Screens yahin JS se aati hain (home, rates, groups, savings) -->
+  <main id="app" class="screen" tabindex="-1" aria-live="polite"></main>
+
+  <!-- Neeche ki navigation: bade icon, kam text -->
+  <nav class="tabbar" aria-label="Main">
+    <a class="tabbar__item" href="#/home" data-route="home">
+      <span class="tabbar__icon" aria-hidden="true">🏠</span>
+      <span class="tabbar__label" data-i18n="nav.home">Home</span>
+    </a>
+    <a class="tabbar__item" href="#/rates" data-route="rates">
+      <span class="tabbar__icon" aria-hidden="true">🏷️</span>
+      <span class="tabbar__label" data-i18n="nav.rates">Rate</span>
+    </a>
+    <a class="tabbar__item" href="#/groups" data-route="groups">
+      <span class="tabbar__icon" aria-hidden="true">👥</span>
+      <span class="tabbar__label" data-i18n="nav.groups">Group</span>
+    </a>
+    <a class="tabbar__item" href="#/savings" data-route="savings">
+      <span class="tabbar__icon" aria-hidden="true">💰</span>
+      <span class="tabbar__label" data-i18n="nav.savings">Bachat</span>
+    </a>
+  </nav>
+
+  <noscript>Is app ko chalane ke liye JavaScript on karein.</noscript>
+
+  <!-- Sab kuch js/app.js se shuru hota hai -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
