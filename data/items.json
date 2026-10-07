@@ -1,0 +1,18 @@
+{
+  "_help": "Naya saman jodne ke liye: yahan ek line jodo, phir locales/*.json ke 'items' mein usi id se naam likho. 'unit' units ke naam se milna chahiye (kg, litre, piece, dozen, packet, cylinder). 'category' categories ke naam se.",
+  "items": [
+    { "id": "atta",      "icon": "🌾", "category": "grains",    "unit": "kg" },
+    { "id": "rice",      "icon": "🍚", "category": "grains",    "unit": "kg" },
+    { "id": "toor_dal",  "icon": "🟡", "category": "pulses",    "unit": "kg" },
+    { "id": "moong_dal", "icon": "🟢", "category": "pulses",    "unit": "kg" },
+    { "id": "sugar",     "icon": "🍬", "category": "oil_sugar", "unit": "kg" },
+    { "id": "oil",       "icon": "🛢️", "category": "oil_sugar", "unit": "litre" },
+    { "id": "salt",      "icon": "🧂", "category": "oil_sugar", "unit": "kg" },
+    { "id": "tea",       "icon": "🍵", "category": "oil_sugar", "unit": "kg" },
+    { "id": "onion",     "icon": "🧅", "category": "veg",       "unit": "kg" },
+    { "id": "potato",    "icon": "🥔", "category": "veg",       "unit": "kg" },
+    { "id": "tomato",    "icon": "🍅", "category": "veg",       "unit": "kg" },
+    { "id": "milk",      "icon": "🥛", "category": "daily",     "unit": "litre" },
+    { "id": "lpg",       "icon": "🔥", "category": "daily",     "unit": "cylinder" }
+  ]
+}
