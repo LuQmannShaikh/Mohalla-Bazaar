@@ -1,0 +1,153 @@
+{
+  "app": {
+    "name": "Mohalla Bazaar",
+    "tagline": "See local prices and buy cheaper together with your neighbours"
+  },
+
+  "nav": {
+    "home": "Home",
+    "rates": "Rates",
+    "groups": "Groups",
+    "savings": "Savings"
+  },
+
+  "lang": {
+    "change": "Change language"
+  },
+
+  "common": {
+    "back": "Back",
+    "save": "Save",
+    "cancel": "Cancel",
+    "ok": "OK",
+    "loading": "Please wait...",
+    "retry": "Try again",
+    "search": "Search",
+    "listen": "Listen",
+    "offline": "No internet. Showing older data.",
+    "yes": "Yes",
+    "no": "No"
+  },
+
+  "units": {
+    "kg": "kg",
+    "litre": "litre",
+    "piece": "piece",
+    "dozen": "dozen",
+    "packet": "packet",
+    "cylinder": "cylinder"
+  },
+
+  "categories": {
+    "all": "All",
+    "grains": "Grains",
+    "pulses": "Pulses",
+    "oil_sugar": "Oil and sugar",
+    "veg": "Vegetables",
+    "daily": "Daily needs"
+  },
+
+  "items": {
+    "atta": "Wheat flour (atta)",
+    "rice": "Rice",
+    "toor_dal": "Toor dal",
+    "moong_dal": "Moong dal",
+    "sugar": "Sugar",
+    "oil": "Mustard oil",
+    "salt": "Salt",
+    "tea": "Tea leaves",
+    "onion": "Onion",
+    "potato": "Potato",
+    "tomato": "Tomato",
+    "milk": "Milk",
+    "lpg": "LPG gas cylinder"
+  },
+
+  "home": {
+    "greeting": "Hello",
+    "question": "What would you like to do today?",
+    "action_rates": "Today's rates",
+    "action_groups": "Group orders",
+    "action_savings": "My savings",
+    "action_add_rate": "Report a rate",
+    "changed_today": "What changed today",
+    "help": "This is the home screen. Tap Rates to see today's prices. Tap Groups to order together with your neighbours."
+  },
+
+  "rates": {
+    "title": "Today's rates",
+    "area": "Your area: {area}",
+    "search_placeholder": "Search items",
+    "per": "per {unit}",
+    "updated": "Updated: {when}",
+    "up": "Up",
+    "down": "Down",
+    "same": "No change",
+    "cheapest": "Cheapest: {price}",
+    "alert": "Set price alert",
+    "alert_set": "Alert set. We will tell you when the price drops below {price}.",
+    "add_title": "Report today's rate",
+    "item": "Item",
+    "price": "Price",
+    "shop": "Shop name",
+    "thanks": "Thank you! Your rate has been added.",
+    "empty": "No rates in this category yet.",
+    "help": "These are today's rates. A red arrow means the price went up. A green arrow means it came down."
+  },
+
+  "groups": {
+    "title": "Group orders",
+    "new": "Start a new group",
+    "join": "Join",
+    "joined": "You have joined",
+    "leave": "Leave group",
+    "progress": "{joined}/{target} people have joined",
+    "need_more": "{count} more people needed",
+    "ready": "Ready to order",
+    "invite": "Invite on WhatsApp",
+    "invite_text": "Order {item} together with me in a group. Open this link to join: {link}",
+    "pickup": "Pickup point: {place}",
+    "price_each": "Group price: {price}",
+    "you_save": "You will save {amount}",
+    "empty": "No groups yet. Be the first to start one.",
+    "create_title": "New group",
+    "target": "How many people are needed?",
+    "qty": "How much do you need?",
+    "pickup_place": "Where will the items be picked up?",
+    "create_btn": "Create group",
+    "created": "Group created!",
+    "help": "Neighbours order together here. The more people join, the lower the price."
+  },
+
+  "savings": {
+    "title": "My savings",
+    "this_month": "Saved this month",
+    "total": "Total saved",
+    "message": "You saved {amount} this month",
+    "orders": "Group orders: {count}",
+    "empty": "Join a group order. Your savings will show up here.",
+    "how": "Savings = shop price − group price",
+    "help": "This shows how much you have saved in total. The cheaper you buy through group orders, the more you save."
+  },
+
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "text_size": "Text size",
+    "size_normal": "Normal",
+    "size_large": "Large",
+    "size_xlarge": "Extra large",
+    "theme": "Colour mode",
+    "theme_auto": "Automatic",
+    "theme_light": "Light",
+    "theme_dark": "Dark",
+    "reset": "Delete all data",
+    "reset_confirm": "Do you want to delete all your data? This cannot be undone."
+  },
+
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "price_invalid": "Enter a valid price.",
+    "required": "This information is required."
+  }
+}
